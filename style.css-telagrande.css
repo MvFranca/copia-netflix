@@ -1,0 +1,35 @@
+@media screen and (min-width: 900px){
+    #entrar{
+        
+        margin-top: 36px;
+        margin-right: 100px;
+        font-size: 16px;
+    }
+    #portugues{
+        font-size: 16px;
+    }
+    
+
+
+    #value-email{
+        width: 500px;
+        height: 70px;
+        padding-left: 8px;
+        font-size: 16px;
+        border: none;
+    }
+    
+    #confirm-email{
+        margin-top: 10px;
+        height: 71px;
+        width: 210px;
+        border: 0px;
+        font-size: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 0px 3px 3px 0px;
+      
+    }
+
+ 
+}
