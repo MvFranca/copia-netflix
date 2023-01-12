@@ -1,4 +1,4 @@
-@media screen and (min-width: 400px){
+
 
 *{
     
@@ -163,4 +163,3 @@ header h1{
     #confirm-email:hover{
     background-color: rgb(217, 0, 0);
     }
-}
