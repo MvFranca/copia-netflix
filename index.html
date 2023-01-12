@@ -15,59 +15,94 @@
 <body>
     
 
-    <div id="periferico">
-        <p>
-                <p id="teste">
-                    NOVO!
-                </p> 
-                <p id="planos">
-                    Planos a partir de 
-                    <strong>R$18,90.</strong>
-                </p> 
-                <p>
-                    <a href="#" style="text-decoration: none;">
-                        <strong>
-                            Saiba mais >
-                        </strong>
-                    </a>
-                </p>
-        </p>
-    </div>
-    <header>
-       
-        <div class="login">
-                <picture id="logo">
-                    <source media="(max-width: 768px)" srcset="logo-netlix\logo-netflix-120.png" type="image/png" id="teste2">
-                    <source media="(max-width: 900px)" srcset="logo-netlix\logo-netflix-150.png" type="image/png">
-                    <img src="logo-netlix/logo-netflix-190-109.png" alt="logo-neto">
-                </picture>
-                <div id="entrar">
-                    <div>
-                        <input type="button" value="Português >" id="portugues">
-                    </div>
-                        
-                    <div>
-                        <input type="button" value="Entrar" id="btnEntrar">
-                    </div>
-                </div> 
-        </div>
-         <div class="slogan">
-            <h1>
-                Filmes, séries e muito mais. Sem limites.
-            </h1>
+    
+        <div id="periferico">
             <p>
-                Assista onde quiser. Cancele quando quiser.
+                    <p id="teste">
+                        NOVO!
+                    </p>
+                    <p id="planos">
+                        Planos a partir de
+                        <strong>R$18,90.</strong>
+                    </p>
+                    <p>
+                        <a href="#" style="text-decoration: none;">
+                            <strong>
+                                Saiba mais >
+                            </strong>
+                        </a>
+                    </p>
             </p>
-            <p id="propaganda">
-                Quer assistir? Informe seu email para criar ou reiniciar sua assinatura
-            </p>
-         </div>
+        </div>
+        <header>
+        
+            <div class="login">
+                    <picture id="logo">
+                        <source media="(max-width: 768px)" srcset="logo-netlix\logo-netflix-120.png" type="image/png" id="teste2">
+                        <source media="(max-width: 900px)" srcset="logo-netlix\logo-netflix-150.png" type="image/png">
+                        <img src="logo-netlix/logo-netflix-190-109.png" alt="logo-netflix">
+                    </picture>
+                    <div id="entrar">
+                        <div>
+                            <input type="button" value="Português >" id="portugues">
+                        </div>
+        
+                        <div>
+                            <input type="button" value="Entrar" id="btnEntrar" onclick="menulogin()">
+                        </div>
+                    </div>
+            </div>
+             <div class="slogan">
+                <h1>
+                    Filmes, séries e muito mais. Sem limites.
+                </h1>
+                <p>
+                    Assista onde quiser. Cancele quando quiser.
+                </p>
+                <p id="propaganda">
+                    Quer assistir? Informe seu email para criar ou reiniciar sua assinatura
+                </p>
+             </div>
+            <section id="email">
+                <input type="email" name="Email" id="value-email" placeholder="Email">
+                <input type="button" value="Vamos lá >" id="confirm-email">
+            </section >
+        
+            <section ID="registro">
+                <div class="dados">
+                    <img src="logo-netlix/logo-netflix-190-109.png" alt="logo-netflix" id="logonetflix">
+                    <h3>
+                        LOGIN
+                    </h3>
+                </div>
+                <div id="nomeeSenha">
+                    <div >
+                        <input type="text" name="Nomede usuário" placeholder="Nome de usuário" id="nome" class="inputsInfo">
+                    </div>
+                    <div>
+                        <input type="password" placeholder="Senha" name="Senha" id="senha" class="inputsInfo">
+                    </div>
+                    <div>
+                    <div>
+                        <input type="button" value="Entrar" id="entrarConta">
+                    </div>
+                        <p>
+                            Ainda não tem conta?
+                            <strong style="color: rgb(69, 69, 255);">
+                                <a href="#" id="novaconta">
+                                    criar conta
+                                </a>
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </section>
+    
 
-        <section id="email">
-            <input type="email" name="Email" id="value-email" value="Email">
-            <input type="button" value="Vamos lá >" id="confirm-email">
-        </section>   
-        </header>    
-       
+        </header>   
+        
+        <script src="scripts.js"></script>
 </body>
 </html>
+
+

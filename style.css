@@ -201,3 +201,72 @@ main{
     height: 300px;
 }
 
+
+#registro{
+    display:none;
+    background-color: black;
+    width: 300px;
+    height: 350px;   
+    position: relative;
+    margin-left: -150px;
+    margin-top: -330px;
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    border: 1.57px solid red;
+    box-shadow: 10px 10px 10000px rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+
+.dados{
+    margin-top: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nomeeSenha{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.dados h3{
+    margin: 0px 10px 13px 10px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.inputsInfo{
+    height: 30px;
+    margin: 8px;
+    padding: 5px 5px 5px 15px;
+    width: 230px;
+    border-radius: 3px;
+}
+
+#logonetflix{
+    margin-top: -200px;
+    height: 100px;
+}
+
+#novaconta{
+    text-decoration: none; 
+}
+
+#novaconta:hover{
+    text-decoration: underline;
+    color: rgb(19, 19, 203);
+}
+
+#entrarConta{
+    height: 38px;
+    margin: 8px;    
+    width: 252px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 18px;
+}
+
+#entrarConta:hover{
+    background-color: rgb(217, 0, 0);
+}
