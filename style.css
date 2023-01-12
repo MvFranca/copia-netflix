@@ -9,9 +9,9 @@
 body{
     background-color: #222222;
     background-image: url(hah-certo.png);
-    
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    height: 80vh;
     padding-bottom: 50px;
     width: 100%;
     
@@ -209,7 +209,7 @@ main{
     height: 350px;   
     position: relative;
     margin-left: -150px;
-    margin-top: -330px;
+    margin-top: -300px;
     left: 50%;
     top: 50%;
     border-radius: 8px;
