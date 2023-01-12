@@ -7,14 +7,14 @@
 }
 
 body{
-    background-color: black;
+    background-color: #222222;
     background-image: url(hah-certo.png);
     
     background-repeat: no-repeat;
     background-size:cover;
     padding-bottom: 50px;
     width: 100vw;
-    
+    height: 70vh;
 }
 
 #periferico{
@@ -160,6 +160,42 @@ header h1{
     border-radius: 2px;
 }
 
-    #confirm-email:hover{
+#confirm-email:hover{
     background-color: rgb(217, 0, 0);
-    }
+}
+
+main{
+        margin-top: 60px;
+}
+
+.caracteristicas{
+    margin-top: 10px;
+    background-color: black;
+    height: 526px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.subtitulos{
+        color: white;
+        
+        max-width: 414px;
+}
+.subtitulos h2{
+    margin-top: 20px;
+    font-size: 26px;
+}
+.subtitulos p{
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.img-carac{
+    margin-top: -70px;
+    width: 450px;
+    height: 330px;
+}
+
