@@ -67,12 +67,13 @@ header h1{
 .login{
     display: flex;
     justify-content: space-between;
+    
 }
 
 #entrar{
     display: flex;
-    margin-top: 36px;
-    margin-right: 25px;
+    margin-top: 36px; 
+    margin-right: 30px;
 }
 
 #portugues{
@@ -81,7 +82,7 @@ header h1{
     background-color: rgba(0, 0, 0, 0.326);
     border: 1px solid white;
     border-radius: 2px;
-    margin-right: 10px;
+    
     font-size: 15px;
 }
 
