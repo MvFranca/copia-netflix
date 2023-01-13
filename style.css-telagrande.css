@@ -1,4 +1,4 @@
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1036px){
 
     #entrar{
         
@@ -10,8 +10,7 @@
         font-size: 16px;
     }
     
-
-
+     
     #value-email{
         width: 500px;
         height: 70px;
