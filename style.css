@@ -1,9 +1,9 @@
 
 
-*{
-    
+*, body{
     margin: 0;
     padding: 0;
+    max-height: 800px;
 }
 
 body{
@@ -11,10 +11,9 @@ body{
     background-image: url(hah-certo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
     padding-bottom: 50px;
-    width: 100%;
-    
+    height: 90vh;
+   
     
 }
 
@@ -50,6 +49,7 @@ body{
 header{
 margin-left: 5px;
 margin-right: 5px;
+
 }
 
 header h1{
@@ -275,4 +275,36 @@ main{
 
 #entrarConta:hover{
     background-color: rgb(217, 0, 0);
+}
+
+
+.informacoes{
+    margin-top: 10px;  
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 513px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.informacoes h3{
+    margin-top: 45px;
+    font-size: 26px;
+}
+
+.informacoes p{
+    margin: auto;
+    margin-top: 13.5px;
+    font-size: 18px;
+    width: 350px;
+}
+
+.informacoes img{
+    margin-top: -45px;
+    width: 350px;
+    height: 220px;
 }

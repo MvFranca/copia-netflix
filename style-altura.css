@@ -1,6 +1,6 @@
 @media screen and (max-height: 700px){
 
     body{
-        height: 500px;
+        max-height: 500px;
     }
 }

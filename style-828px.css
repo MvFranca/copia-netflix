@@ -1,0 +1,15 @@
+@media screen and (min-width: 828px){
+    
+
+    .informacoes h3{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .informacoes p{
+        font-size: 25px;
+        margin-bottom: 15px;
+        width: 738px;
+    }
+
+}

@@ -1,0 +1,13 @@
+
+@media screen and (min-width: 918px){
+
+    .textos{
+        margin-top: -20px;
+    }
+
+    .informacoes img{
+        
+        width: 550px;
+        height: 310px;
+    }
+}

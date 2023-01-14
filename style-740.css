@@ -1,0 +1,11 @@
+@media screen and (min-width: 717px){
+
+    .informacoes p{
+        width: 500px;
+    }
+
+    .informacoes img{
+        width: 400px;
+        height: 280px;
+    }
+}

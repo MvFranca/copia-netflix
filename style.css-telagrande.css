@@ -1,5 +1,4 @@
 @media screen and (min-width: 1035px){
-
     #entrar{
         
         margin-top: 36px;
@@ -31,5 +30,16 @@
       
     }
 
- 
+    .informacoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap;
+         justify-content: space-evenly;
+        
+    }
+
+
+    
 }
